@@ -1,0 +1,194 @@
+body {
+    font-size: 15pt;
+    background-color: red;
+}
+.riddle {
+  background-color:yellow ;
+  margin: 25px;
+  padding: 15px;
+  background: linear-gradient(135deg, red, white);
+  border:2px solid yellow;
+  border-radius: 50px;
+}
+
+.button{
+  height: 50px;
+  width: 340px;
+  background-color: lightgrey;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+  text text-decoration: none;
+  
+}
+  
+
+.solve{
+  background-color: blue;
+  border: 2px solid yellow;
+  border-radius: 50px;
+  background: linear-gradient(135deg, blue, yellow);
+}
+.button:hover {   animation: sizeChange
+1s linear 1;
+}
+
+@keyframes sizeChange {
+  0% {
+    font-size: 16px;
+    background-color: green;
+    color: white;
+  }
+  50% {
+    font-size: 24px;
+    background-color: red;
+    color: white;
+  }
+  100% {
+    font-size: 16px;
+    background-color: blanchedalmond;
+    color: blanchedalmond;
+  }
+}
+.download-button {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  height: 34px;
+  width: 140px;
+  background-color: blueviolet;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 70px;
+  margin: 70px;
+  text-transform: uppercase;
+  text text-decoration: none;
+}
+
+.download-button:hover { 
+  animation: sizeChange
+20s linear infinite;
+}
+
+@keyframes sizeChange {
+  0% {
+    font-size: 0px;
+    background-color: orangered"";
+    color: white;
+  }
+  5% {
+    font-size: 0px;
+    background-color: white;
+    color: white;
+  }
+  10% {
+    font-size: 0px;
+    background-color: darkgreen;
+    color: blanchedalmond;
+  }
+  15% {
+    font-size: 0px;
+    background-color: blueviolet;
+    color: blanchedalmond;
+}
+20% {
+  font-size: 0px;
+  background-color: yellowgreen;
+  color: blanchedalmond;}
+  
+  25% {
+  font-size: 0px;
+  background-color: black;
+  color: blanchedalmond;}
+  
+  30% {
+  font-size: 0px;
+  background-color: khaki;
+  color: blanchedalmond;}
+  
+  35% {
+  font-size: 0px;
+  background-color: linen;
+  color: blanchedalmond;}
+  
+  40% {
+  font-size: 0px;
+  background-color: orchid;
+  color: blanchedalmond;}
+  
+  45% {
+  font-size: 0px;
+  background-color: violet;
+  color: blanchedalmond;}
+  
+  50% {
+  font-size: 0px;
+  background-color: navajowhite;
+  color: blanchedalmond;}
+  
+  55% {
+  font-size: 0px;
+  background-color: red;
+  color: blanchedalmond;}
+  
+  60% {
+  font-size: 0px;
+  background-color: palevioletred;
+  color: blanchedalmond;}
+  
+  65% {
+  font-size: 0px;
+  background-color: aquamarine;
+  color: blanchedalmond;}
+  
+  70% {
+  font-size: 0px;
+  background-color: darkslategrey;
+  color: blanchedalmond;}
+  
+  75% {
+  font-size: 0px;
+  background-color: palegreen;
+  color: blanchedalmond;}
+  
+  80% {
+  font-size: 0px;
+  background-color: orange;
+  color: blanchedalmond;}
+  
+  85% {
+  font-size: 0px;
+  background-color: bisque;
+  color: blanchedalmond;}
+  
+  90% {
+  font-size: 0px;
+  background-color: brown;
+  color: blanchedalmond;}
+  
+  95% {
+  font-size: 0px;
+  background-color: whitesmoke;
+  color: blanchedalmond;}
+  
+  100% {
+  font-size: 0px;
+  background-color: darkorange;
+  color: blanchedalmond;}
+
+ 
+
+
+.download-button:active {
+  background-color: orange;
+}
+
